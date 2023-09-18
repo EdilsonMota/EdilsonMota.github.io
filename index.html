@@ -47,12 +47,13 @@
                     </div>
                 </div>
                 <!-- SECTION -->
-                <div class="titulo">
-                    <h3 class="titulo_texto">TíTULO DA SECÇÃO</h3>
-                    <div class="titulo_borda"></div>
-                </div>
-                <section>
-                    <!-- 1.ARTICULE -->
+                <section class="section_comum">
+                    <div class="titulo">
+                        <h3 class="titulo_texto">NOTÍCIAS</h3>
+                        <a class="titulo_mais">Ler mais</a>
+                    </div>
+                    <div id="section_noticias_container">
+                        <!-- 1.ARTICULE -->
                         <article>
                             <a class="article_link" href="index.html"></a>
                             <div >
@@ -60,10 +61,13 @@
                             </div>
                             <div class="article_espaco">
                                 <h3 class="article_margin_texto">
-                                    Artigo 1
+                                    ARTIGO 1
                                 </h3>
                                 <p class="font_pequena article_margin_texto">
                                     Torne-se certificado na Academia de Basquetebol Africana online. Ganha acesso um curso de 3 sessões para coach ou personel-trainer, o programa completo para seus jogarores ou time. 
+                                </p>
+                                <p class="font_pequena article_margin_texto article_data">
+                                    15 de Setembro, 2023
                                 </p>
                             </div>
                         </article>
@@ -81,6 +85,9 @@
                             <p class="font_pequena article_margin_texto">
                                 Torne-se certificado na Academia de Basquetebol Africana online. Ganha acesso um curso de 3 sessões para coach ou personel-trainer, o programa completo para seus jogarores ou time. 
                             </p>
+                            <p class="font_pequena article_margin_texto article_data">
+                                01 de Setembro, 2023
+                            </p>
                         </div>
                     </article>
                     <!-- 3.ARTICULE -->
@@ -96,67 +103,72 @@
                             <p class="font_pequena article_margin_texto">
                                 Torne-se certificado na Academia de Basquetebol Africana online. Ganha acesso um curso de 3 sessões para coach ou personel-trainer, o programa completo para seus jogarores ou time. 
                             </p>
-                            
+                            <p class="font_pequena article_margin_texto article_data">
+                                23 de Agosto, 2023
+                            </p>
                         </div>
+                    </div>
                     </article>
                 </section>
                 <!-- PROGRAMAS -->
-                <div class="titulo">
-                    <h3 class="titulo_texto">PROGRAMAS DE TREINO</h3>
-                    <div class="titulo_borda"></div>
-                </div>
-                <section class="programas_section">
-                    <!-- 1.PROGRAMA -->
-                    <div class="programa_container">
-                        <a class="article_link" href="index.html"></a>
-                        <h5 class="programa_paragrafo">
-                            <span class="programa_texto">DA CAMINHADA À CORRIDA</span>
-                        </h5>
-                        <h5 class="programa_paragrafo">
-                            <span class="programa_texto">INICIANTE</span><span class="programa_texto">8 - 16 SEMANAS</span>
-                        </h5>
-                        <h6 class="programa_texto_descricao">
-                            Você corre 10 minutos sem parar. Quer melhorar ou compeltar uma corrida de 5km.
-                        </h6>
+                <section class="section_comum">
+                    <div class="titulo">
+                        <h3 class="titulo_texto">TREINOS</h3>
+                        <a class="titulo_mais">Ler mais</a>
                     </div>
-                    <!-- 2.PROGRAMA -->
-                    <div class="programa_container">
-                        <a class="article_link" href="index.html"></a>
-                        <h5 class="programa_paragrafo">
-                            <span class="programa_texto">DA CAMINHADA À CORRIDA</span>
-                        </h5>
-                        <h5 class="programa_paragrafo">
-                            <span class="programa_texto">INICIANTE</span><span class="programa_texto">8 - 16 SEMANAS</span>
-                        </h5>
-                        <h6 class="programa_texto_descricao">
-                            Você corre 10 minutos sem parar. Quer melhorar ou compeltar uma corrida de 5km.
-                        </h6>
-                    </div>
-                    <!-- 3.PROGRAMA -->
-                    <div class="programa_container">
-                        <a class="article_link" href="index.html"></a>
-                        <h5 class="programa_paragrafo">
-                            <span class="programa_texto">DA CAMINHADA À CORRIDA</span>
-                        </h5>
-                        <h5 class="programa_paragrafo">
-                            <span class="programa_texto">INICIANTE</span><span class="programa_texto">8 - 16 SEMANAS</span>
-                        </h5>
-                        <h6 class="programa_texto_descricao">
-                            Você corre 10 minutos sem parar. Quer melhorar ou compeltar uma corrida de 5km.
-                        </h6>
-                    </div>
-                    <!-- 4.PROGRAMA -->
-                    <div class="programa_container">
-                        <a class="article_link" href="index.html"></a>
-                        <h5 class="programa_paragrafo">
-                            <span class="programa_texto">DA CAMINHADA À CORRIDA</span>
-                        </h5>
-                        <h5 class="programa_paragrafo">
-                            <span class="programa_texto">INICIANTE</span><span class="programa_texto">8 - 16 SEMANAS</span>
-                        </h5>
-                        <h6 class="programa_texto_descricao">
-                            Você corre 10 minutos sem parar. Quer melhorar ou compeltar uma corrida de 5km.
-                        </h6>
+                    <div id="section_container_programas">
+                        <!-- 1.PROGRAMA -->
+                        <div class="programa_container">
+                            <a class="article_link" href="index.html"></a>
+                            <h5 class="programa_paragrafo">
+                                <span class="programa_texto">DA CAMINHADA À CORRIDA</span>
+                            </h5>
+                            <h5 class="programa_paragrafo">
+                                <span class="programa_texto">INICIANTE</span><span class="programa_texto">8 - 16 SEMANAS</span>
+                            </h5>
+                            <h6 class="programa_texto_descricao">
+                                Você corre 10 minutos sem parar. Quer melhorar ou compeltar uma corrida de 5km.
+                            </h6>
+                        </div>
+                        <!-- 2.PROGRAMA -->
+                        <div class="programa_container">
+                            <a class="article_link" href="index.html"></a>
+                            <h5 class="programa_paragrafo">
+                                <span class="programa_texto">DA CAMINHADA À CORRIDA</span>
+                            </h5>
+                            <h5 class="programa_paragrafo">
+                                <span class="programa_texto">INICIANTE</span><span class="programa_texto">8 - 16 SEMANAS</span>
+                            </h5>
+                            <h6 class="programa_texto_descricao">
+                                Você corre 10 minutos sem parar. Quer melhorar ou compeltar uma corrida de 5km.
+                            </h6>
+                        </div>
+                        <!-- 3.PROGRAMA -->
+                        <div class="programa_container">
+                            <a class="article_link" href="index.html"></a>
+                            <h5 class="programa_paragrafo">
+                                <span class="programa_texto">DA CAMINHADA À CORRIDA</span>
+                            </h5>
+                            <h5 class="programa_paragrafo">
+                                <span class="programa_texto">INICIANTE</span><span class="programa_texto">8 - 16 SEMANAS</span>
+                            </h5>
+                            <h6 class="programa_texto_descricao">
+                                Você corre 10 minutos sem parar. Quer melhorar ou compeltar uma corrida de 5km.
+                            </h6>
+                        </div>
+                        <!-- 4.PROGRAMA -->
+                        <div class="programa_container">
+                            <a class="article_link" href="index.html"></a>
+                            <h5 class="programa_paragrafo">
+                                <span class="programa_texto">DA CAMINHADA À CORRIDA</span>
+                            </h5>
+                            <h5 class="programa_paragrafo">
+                                <span class="programa_texto">INICIANTE</span><span class="programa_texto">8 - 16 SEMANAS</span>
+                            </h5>
+                            <h6 class="programa_texto_descricao">
+                                Você corre 10 minutos sem parar. Quer melhorar ou compeltar uma corrida de 5km.
+                            </h6>
+                        </div>
                     </div>
                 </section>
                 <!-- SECGION -->
