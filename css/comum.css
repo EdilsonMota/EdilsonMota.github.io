@@ -107,7 +107,20 @@ a {
     main {
         grid-area: main;
         display: grid;
+        grid-template-areas: "b b b" 
+                        "n n n"
+                        "r r r"
+                        "t t t"
+                        "p p p";
         background-color: var(--color-gray);
+    }
+
+    #section_noticias{
+      grid-area: n;
+    }
+
+    #section_programas{
+      grid-area: t;
     }
 
     .button{
@@ -132,6 +145,7 @@ a {
     BEGIN
   */
 #section_resultados{
+  grid-area: r;
 }
 
   /*FOOTER
@@ -141,7 +155,7 @@ a {
       grid-area: footer;
       display: grid;
       grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
-      grid-gap: 10px;
+      grid-gap: 20px;
       padding: 0px 10%;
       background-color: var(--cor3);
       color: var(--color-light-gray);
@@ -442,12 +456,21 @@ label {
 }
 
 @media screen and (min-width: 700px){
+
   footer p:last-child {
     grid-column-end: span 3;
   }
   
   .actual-pagina {
     border-bottom: 5px solid var(--color-light-gray) !important;
-}
+  }
+
+  main {
+    display: grid;
+    grid-template-areas:  "b b b" 
+                          "n n r"
+                          "t t t"
+                          "p p p";
+  }
 
 }

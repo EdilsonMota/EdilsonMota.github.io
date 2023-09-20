@@ -3,6 +3,7 @@
 **************************************************************/
 
 #banner{
+    grid-area: b;
     display: flex;
     flex-direction: column-reverse;
     background: url("../img/wallpaper_basket_pc.jpg") rgb(0,0,0) no-repeat center;     
@@ -44,7 +45,7 @@
 .section_comum{
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
@@ -125,6 +126,15 @@ table{
     border-top: var(--color-light-gray) 1px solid;
     padding: 15px 5px;
 }
+.tb_row > th:first-child{
+    padding-right: 200px !important;
+}
+.tb_row > td:nth-child(n+2){
+    text-align: center;
+}
+.tb_row > tr:hover{
+    background-color: lightgrey;
+}
 
 .icon_link {
     display: inline-block;
@@ -163,6 +173,13 @@ table{
 #section_container_programas::-webkit-scrollbar {
     -webkit-appearance: none !important;
     display: none;
+}
+
+#section_patrocinio{
+    grid-area: p;
+}
+#section_container_patrocinio{
+
 }
 
 /**************************************************************
